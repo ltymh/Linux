@@ -1,7 +1,0 @@
-小学期学习Linux，把自己的学习的一些东西写上来
-    首先是一些命令 cd pwd ls mv cp file tar  mkdir 
-    可以通用的创建文件夹得 ls >  touch  
-    用来展示的   cat more less nl head tail
-    用来寻找的   locate  find  which  whereis
-    还有一些压缩和解压的操作 
-    看当前状态的  ps  top
