@@ -1,0 +1,16 @@
+关机 ： shutdown -h now   &  half   &  poweroff
+重启 ： reboot
+图形界面： init 5  &  startx
+改变权限： chown 改变所属人 chown root:root install.log 	//第一个参数是拥有者，第二个参数是可使用人群
+		  chmod 改变权限 1）chmod 777 test	//第一个数字表示拥有者权限，第二个数字表示使用者组人群权限，第三个数字表示其他用户权限
+		  				2）chmod [ugoa...][[+-=][rwxX]...][,...]  //u表示拥有者，g表组，o表其他	+表增加权限，=表示唯一权限		r读，w写，x 可执行
+复制： cp
+移动： mv
+删除： rm  //加-rf参数表示强制删除
+创建文件夹： mkdir
+创建文件： touch
+显示文件内容： cat
+分页显示文件内容： more   //空格键下一页，b键上一页
+显示内容并在前面加行号： nl
+显示第n行内容： head -n filename
+显示后n行内容： tail -n filename
